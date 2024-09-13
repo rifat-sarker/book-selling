@@ -4,7 +4,7 @@ import Navbar from "../shared/Navbar/Navbar";
 
 const Root = () => {
     return (
-        <div>
+        <div className="p-4 max-w-6xl mx-auto font-Inter"> 
             <Navbar/>
             <Outlet/>
         </div>
