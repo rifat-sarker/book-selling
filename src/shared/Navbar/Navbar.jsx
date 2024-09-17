@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center max-w-6xl mx-auto p-4">
       <div className="">
         <ul className="flex items-center gap-8">
           <li>
