@@ -1,6 +1,6 @@
-import image1 from "../../../assets/Screenshot 2024-09-18 210004.png"
-import image2 from "../../../assets/Screenshot 2024-09-18 211236.png"
-import image3 from "../../../assets/Screenshot 2024-09-18 211322.png"
+import image1 from "../../assets/Screenshot 2024-09-18 210004.png"
+import image2 from "../../assets/Screenshot 2024-09-18 211236.png"
+import image3 from "../../assets/Screenshot 2024-09-18 211322.png"
 export default function Welcome() {
   return (
     <div className="text-center py-16 w-3/4 mx-auto space-y-8">

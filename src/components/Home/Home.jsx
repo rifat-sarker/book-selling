@@ -1,6 +1,8 @@
 import Navbar from "../../shared/Navbar/Navbar";
+import BookStory from "../Header/BookStory/BookStory";
 import Header from "../Header/Header";
-import Welcome from "../Header/Welcome/Welcome";
+import Welcome from "../Welcome/Welcome";
+
 
 export default function Home() {
     return(
@@ -8,6 +10,7 @@ export default function Home() {
             {/* <Navbar/> */}
             <Header/>
             <Welcome/>
+            <BookStory/>
         </div>
     )
 }
