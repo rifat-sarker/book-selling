@@ -5,17 +5,20 @@ import Navbar from "../../shared/Navbar/Navbar";
 
 export default function Header() {
   return (
-    <div className="text-white" style={{
-      backgroundImage: `url(${image2})`,
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-     backgroundPosition: "en"
-    }}>
-      <Navbar/>
+    <div className="relative h-full w-full">
       <div
-        className="mt-12 max-w-6xl mx-auto"
-      >
-        <div className="flex items-center justify-between gap-4">
+        className="absolute h-full w-[30%] right-0 top-0"
+        style={{
+          backgroundImage: `url(${image2})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      ></div>
+      <div className="relative">
+        <Navbar />
+      </div>
+      <div className="max-w-6xl mx-auto relative z-10">
+        <div className="flex items-center justify-between gap-4 py-14">
           <div className="space-y-4 w-1/2">
             <p className="text-orange-300">Best Selling Book</p>
             <h1 className="text-5xl font-bold">

@@ -1,5 +1,5 @@
-import { CiFacebook } from "react-icons/ci";
-import { CiTwitter } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
@@ -27,11 +27,11 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="flex gap-4 justify-center items-center">
-        <CiFacebook size={25} />
-        <FaInstagram size={25} />
-        <CiTwitter size={25} />
-        <FaYoutube size={25} />
+      <div className="flex gap-6 justify-center items-center text-white">
+        <FaTwitter size={20} />
+        <FaFacebook size={20} />
+        <FaYoutube size={20} />
+        <FaInstagram size={20} />
       </div>
     </div>
   );
