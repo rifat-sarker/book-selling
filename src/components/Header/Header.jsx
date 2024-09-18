@@ -5,7 +5,7 @@ import Navbar from "../../shared/Navbar/Navbar";
 
 export default function Header() {
   return (
-    <div className="relative h-full w-full">
+    <div className="relative h-full w-full mb-10 bg-[#efefef]">
       <div
         className="absolute h-full w-[30%] right-0 top-0"
         style={{
