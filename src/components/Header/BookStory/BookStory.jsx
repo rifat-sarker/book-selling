@@ -7,7 +7,7 @@ export default function BookStory() {
         <img className="w-[850px] h-[600px]" src={writer} alt="" />
         <div className="p-4 space-y-6">
           <p className="text-[#b69d78]">The story of</p>
-          <h1 className="text-5xl font-bold">Grace Bryant</h1>
+          <h1 className="text-5xl font-bold text-[#19150f] ">Grace Bryant</h1>
           <p>
             Dapibus id interdum fusce sed odio massa tellus amet, faucibus nibh
             consequat justo mauris, donec nec tempus in volutpat iaculis
@@ -27,7 +27,7 @@ export default function BookStory() {
             Read More
           </button>
           <div className="pt-20">
-            <div className="flex gap-5 border-t-2 border-black border-b-2 p-4">
+            <div className="flex gap-5 border-t-2  border-[#19150f] border-b-2 p-4">
               <div className="flex gap-4">
                 <h1 className="text-[#b69d78] text-5xl font-bold">12</h1>
                 <div className="text-[#413E3A]">
@@ -35,6 +35,7 @@ export default function BookStory() {
                   <p>Published</p>
                 </div>
               </div>
+              <div className="flex flex-col border mx-4"></div>
               <div className="flex gap-4">
                 <h1 className="text-[#b69d78] text-5xl font-bold">08</h1>
                 <div className="text-[#413E3A]">

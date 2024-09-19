@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-4 py-14">
           <div className="space-y-4 w-1/2">
             <p className="text-orange-300">Best Selling Book</p>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-5xl font-bold text-[#19150f] ">
               Discover the <br /> magical journey
             </h1>
             <p>

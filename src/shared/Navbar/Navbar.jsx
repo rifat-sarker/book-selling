@@ -10,7 +10,7 @@ export default function Navbar() {
         <ul className="flex items-center gap-8">
           <li>
             <div className="flex flex-col items-centers">
-              <a className="mr-10" href=""><span className="text-sm">Grace</span> <br /> <span className="text-xl font-bold">Bryant</span></a>
+              <a className="mr-10" href=""><span className="text-sm">Grace</span> <br /> <span className="text-xl font-bold text-[#19150f] ">Bryant</span></a>
             </div>
           </li>
           <li>
