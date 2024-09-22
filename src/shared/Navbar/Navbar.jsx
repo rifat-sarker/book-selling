@@ -27,18 +27,9 @@ export default function Navbar() {
          </div>
         )}
         {isMenuOpen && (
-          <div>
+          <div className="fixed left-0 right-0 top-20 z-40 bg-white p-6 
+           shadow-md w-full ">
             <ul className="flex flex-col items-center gap-8">
-              <li>
-                <div className="flex flex-col items-centers">
-                  <a href="">
-                    <span className="text-sm">Grace</span> <br />{" "}
-                    <span className="text-xl font-bold text-[#19150f] ">
-                      Bryant
-                    </span>
-                  </a>
-                </div>
-              </li>
               <li>
                 <a href="/">Home</a>
               </li>
@@ -87,8 +78,8 @@ export default function Navbar() {
         <FaInstagram size={20} />
       </div>
       <div className="md:hidden">
-        <button onClick={toggleMenu}>
-          {isMenuOpen ? <IoMdClose size={25} /> : <GrMenu size={25} />}
+        <button className="border p-3" onClick={toggleMenu}>
+          {isMenuOpen ? <IoMdClose color="white" size={25} /> : <GrMenu color="white" size={25} />}
         </button>
       </div>
     </div>
