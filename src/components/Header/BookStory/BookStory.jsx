@@ -3,8 +3,8 @@ import writer from "../../../assets/writer-template-woman-figure.jpg";
 export default function BookStory() {
   return (
     <div className="py-12">
-      <div className="flex items-center gap-10">
-        <img className="w-[850px] h-[600px]" src={writer} alt="" />
+      <div className="lg:flex justify-center items-center gap-10">
+        <img className="md:w-[850px] md:h-[600px]" src={writer} alt="" />
         <div className="p-4 space-y-6">
           <p className="text-[#b69d78]">The story of</p>
           <h1 className="text-5xl font-bold text-[#19150f] ">Grace Bryant</h1>
