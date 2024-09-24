@@ -4,7 +4,7 @@ import { MdLocationOn } from "react-icons/md";
 
 export default function TicketEvent() {
   return (
-    <div className="lg:flex max-w-6xl mx-auto  gap-10 py-14">
+    <div className="lg:flex max-w-6xl mx-auto  gap-10 py-14 p-4">
       <div className="space-y-8 w-full mx-auto">
         <p className="text-[#b69d78]">Don't miss it!</p>
         <h1 className="text-5xl font-bold text-[#19150f] text-center">

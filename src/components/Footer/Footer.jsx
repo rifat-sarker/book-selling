@@ -6,9 +6,9 @@ import { FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="py-12">
-      <div className="flex justify-between items-center max-w-6xl mx-auto p-4">
+      <div className="lg:flex justify-between items-center max-w-6xl mx-auto p-4">
         <div className="">
-          <ul className="flex items-center gap-8">
+          <ul className="flex justify-center items-center gap-8">
             <li>
               <a href="/">Home</a>
             </li>
@@ -24,7 +24,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-col items-centers">
+        <div className="flex text-center flex-col justify-center items-centers my-8">
           <a className="mr-10" href="">
             <span className="text-sm">Grace</span> <br />{" "}
             <span className="text-xl font-bold text-[#19150f] ">Bryant</span>

@@ -5,7 +5,7 @@ import cover3 from "../../assets/book-cover-3.jpg";
 export default function BestSelling() {
   return (
     <div className="max-w-6xl mx-auto my-10">
-      <div className="lg:flex flex-wrap gap-6 justify-between py-10">
+      <div className="lg:flex flex-wrap gap-6 justify-between p-4 py-14">
         <h1 className="text-5xl font-bold text-[#19150f] ">Best selling books</h1>
         <button className="flex items-center border-b-2 border-b-[#b69d78]">
           <span className="inline-block">
