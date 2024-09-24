@@ -9,7 +9,7 @@ import Welcome from "../Welcome/Welcome";
 
 export default function Home() {
     return(
-        <div>
+        <div className="p-4">
             {/* <Navbar/> */}
             <Header/>
             <Welcome/>
