@@ -14,7 +14,7 @@ export default function Welcome() {
         turpis <br /> dui scelerisque sit massa semper risus, vitae volutpat sodales
         eget.
       </p>
-      <div className="flex justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         <img src={image1} alt="" />
         <img src={image2} alt="" />
         <img src={image3} alt="" />
