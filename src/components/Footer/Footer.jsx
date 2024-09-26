@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <div className="py-12">
       <div className="lg:flex justify-between items-center max-w-6xl mx-auto p-4">
-        <div className="">
-          <ul className="flex justify-center items-center gap-8">
+        <div>
+          <ul className="flex flex-col sm:flex-row justify-center items-center lg:gap-10 md:gap-10 sm:gap-8 gap-2 text-center">
             <li>
               <a href="/">Home</a>
             </li>
@@ -25,13 +25,13 @@ export default function Footer() {
         </div>
 
         <div className="flex text-center flex-col justify-center items-centers my-8">
-          <a className="mr-10" href="">
+          <a className="" href="">
             <span className="text-sm">Grace</span> <br />{" "}
             <span className="text-xl font-bold text-[#19150f] ">Bryant</span>
           </a>
         </div>
 
-        <div className="flex gap-6 justify-center items-center ">
+        <div className="flex gap-6 justify-center items-center text-[#93908b] ">
           <FaTwitter size={20} />
           <FaFacebook size={20} />
           <FaYoutube size={20} />
