@@ -7,7 +7,7 @@ export default function TicketEvent() {
     <div className="lg:flex max-w-6xl mx-auto  gap-10 py-14 p-4">
       <div className="space-y-8 w-full mx-auto">
         <p className="text-[#b69d78]">Don't miss it!</p>
-        <h1 className="text-5xl font-bold text-[#19150f] text-center">
+        <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-4xl font-bold text-[#19150f] text-center">
           Get a special copy signed by me
         </h1>
         <p>
@@ -18,7 +18,7 @@ export default function TicketEvent() {
           <div className="flex justify-between gap-6">
             <div>
               <h2 className="text-2xl font-bold text-[#93908b] pb-4">18 Apr</h2>
-              <h2 className="text-4xl font-bold text-[#19150f]">2021</h2>
+              <h2 className="lg:text-4xl  md:text-4xl sm:text-3xl text-2xl font-bold text-[#19150f]">2021</h2>
             </div>
             <div>
               <div className="border-[#b69d78] border-r-2 px-8"></div>

@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center max-w-6xl mx-auto p-4">
+    <div className="flex justify-between items-center max-w-6xl mx-auto mb-10">
       <div >
         {isMenuOpen && (
           <div

@@ -4,7 +4,7 @@ import image3 from "../../assets/Screenshot 2024-09-18 211322.png"
 export default function Welcome() {
   return (
     <div className="text-center py-16 w-3/4 mx-auto space-y-8">
-      <h1 className="text-5xl font-bold text-[#b69d78]">
+      <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold text-[#b69d78]">
         Welcome to the World of pure dolor <br /> ipsum tortor pretium.
       </h1>
       <p className="text-[#93908b]">
