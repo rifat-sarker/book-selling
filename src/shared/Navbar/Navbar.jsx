@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { GrMenu } from "react-icons/gr";
 import { IoMdClose } from "react-icons/io";
+import logo from "../../assets/logo.png"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,24 +15,24 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center max-w-6xl mx-auto mb-10">
-      <div >
+    <div className="flex justify-between items-center max-w-6xl mx-auto mb-10 font-Raleway font-semibold text-[14px] text-[#93908b]">
+      <div>
         {isMenuOpen && (
           <div
-            className="fixed left-0 right-0 top-20 z-40 bg-white p-6 
+            className="fixed left-0 right-0 top-20 z-40 bg-[#efefef] p-6 
            shadow-md w-full "
           >
-            <ul className="flex flex-col items-center gap-8">
-              <li>
+            <ul className="flex flex-col items-center gap-4">
+              <li className="text-[#19150f] bg-transparent px-4 py-2  border-transparent hover:bg-[#b69d78] hover:text-white hover:border-[#b69d78] w-[30%] text-center transition-all ">
                 <a href="/">Home</a>
               </li>
-              <li>
+              <li className="text-[#19150f] bg-transparent px-4 py-2  border-transparent hover:bg-[#b69d78] hover:text-white hover:border-[#b69d78] w-[30%] text-center transition-all">
                 <a href="/about">About</a>
               </li>
-              <li>
+              <li className="text-[#19150f] bg-transparent px-4 py-2  border-transparent hover:bg-[#b69d78] hover:text-white hover:border-[#b69d78] w-[30%] text-center transition-all">
                 <a href="/books">Books</a>
               </li>
-              <li>
+              <li className="text-[#19150f] bg-transparent px-4 py-2  border-transparent hover:bg-[#b69d78] hover:text-white hover:border-[#b69d78] w-[30%] text-center transition-all">
                 <a href="/contact">Contact</a>
               </li>
             </ul>
@@ -41,10 +42,11 @@ export default function Navbar() {
           <li>
             <div className="flex  flex-col items-centers">
               <a className="mr-10" href="">
-                <span className="text-sm">Grace</span> <br />{" "}
-                <span className="text-xl font-bold text-[#19150f] ">
+                {/* <span className="text-sm">Grace</span> <br />{" "}
+                <span className="text-xl  text-[#19150f] ">
                   Bryant
-                </span>
+                </span> */}
+                <img src={logo} alt="" />
               </a>
             </div>
           </li>

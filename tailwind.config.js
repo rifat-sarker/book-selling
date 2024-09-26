@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
+        DMSerif : ["DM Serif Display", "serif"],
+        Raleway : ["Raleway", "sans-serif"]
       },
     },
   },
