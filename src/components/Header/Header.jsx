@@ -21,7 +21,7 @@ export default function Header() {
         <div className="lg:flex flex-wrap items-center justify-between gap-4">
           <div className="space-y-4 mb-4">
             <p className="text-orange-300">Best Selling Book</p>
-            <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-4xl font-bold text-[#19150f] ">
+            <h1 className="lg:text-5xl md:text-4xl  text-3xl text-4xl font-bold text-[#19150f] ">
               Discover the <br /> magical journey
             </h1>
             <p>

@@ -4,10 +4,10 @@ import { MdLocationOn } from "react-icons/md";
 
 export default function TicketEvent() {
   return (
-    <div className="lg:flex max-w-6xl mx-auto  gap-10 py-14 p-4">
+    <div className="lg:flex max-w-6xl mx-auto  gap-10 lg:py-14 p-4">
       <div className="space-y-8 w-full mx-auto">
         <p className="text-[#b69d78]">Don't miss it!</p>
-        <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-4xl font-bold text-[#19150f] text-center">
+        <h1 className="lg:text-5xl md:text-4xl  text-3xl font-bold text-[#19150f]">
           Get a special copy signed by me
         </h1>
         <p>
@@ -32,14 +32,14 @@ export default function TicketEvent() {
             </div>
           </div>
         </div>
-        <button className="flex items-center border-b-2 pt-8 border-b-[#b69d78] text-[#19150f]">
+        <button className="flex items-center border-b-2 border-b-[#b69d78] text-[#19150f]">
           <span className="inline-block ">
             <IoIosArrowRoundForward size={30} />
           </span>{" "}
           Get Tickets To The Event
         </button>
       </div>
-      <div className="w-full mx-auto justify-center text-center place-items-center my-4">
+      <div className="w-full mx-auto justify-center text-center place-items-center my-6">
         <img className="lg:h-[600px] lg:w-[600px] mx-auto" src={photo} alt="" />
       </div>
     </div>
