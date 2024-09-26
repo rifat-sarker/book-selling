@@ -12,7 +12,7 @@ export default function NewsLetter() {
           id=""
           placeholder="Email address"
         />
-        <button className="flex items-center border-b-2 border-b-[#b69d78] text-[#19150f]">
+        <button className="flex items-center text-white hover:text-[#19150f] bg-[#b69d78] px-4 py-2">
           Subscribe
         </button>
       </div>

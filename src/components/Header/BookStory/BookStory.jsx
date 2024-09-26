@@ -20,7 +20,7 @@ export default function BookStory() {
             aliquet egestas id diam rhoncus, mollis arcu pharetra quis duis
             morbi a nunc diam mauris ut tortor ipsum.
           </p>
-          <button className="flex items-center border-b-2 border-b-[#b69d78]">
+          <button className="flex items-center text-white hover:text-[#19150f] bg-[#b69d78] px-4 py-2 w-fit">
             <span className="inline-block">
               <IoIosArrowRoundForward size={30} />
             </span>{" "}
